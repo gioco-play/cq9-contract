@@ -1,1 +1,1 @@
-# bole-card interface
+# cq9 interface
