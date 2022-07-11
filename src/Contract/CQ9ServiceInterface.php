@@ -13,18 +13,18 @@ interface CQ9ServiceInterface {
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @param string $back_url
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $back_url = null);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language);
 
     /**
      * 遊戲詳情
      * @param string $op_code
      * @param string $account
      * @param string $bet_id
+     * @param string $language
      * @return mixed
      */
-    function gameDetail(string $op_code, string $account, string $bet_id);
+    function gameDetail(string $op_code, string $account, string $bet_id, string $language);
 }
 
